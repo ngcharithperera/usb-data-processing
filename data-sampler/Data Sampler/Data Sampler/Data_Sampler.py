@@ -3,15 +3,8 @@ import json
 
 class DummyClient(WebSocketClient):
     def opened(self):
-        def data_provider():
-            for i in range(1, 200, 25):
-                yield "#" * i
+        print("opened")
 
-        self.send(data_provider())
-
-        for i in range(0, 200, 25):
-            print(i)
-            self.send("*" * i)
 
     def closed(self, code, reason=None):
         print("Closed down"), code, reason
@@ -21,6 +14,9 @@ class DummyClient(WebSocketClient):
         parsed_json = json.loads(json_string)
         print(m)
         print(parsed_json)
+        if parsed_json["signal"]==2:            
+            floor_number = parsed_json["data"]["entity"]["meta"]["buildingFloor"]
+            print(floor_number)
         if len(m) == 175:
             self.close(reason='Bye bye')
 
