@@ -2,6 +2,7 @@ from ws4py.client.threadedclient import WebSocketClient
 import json
 import Data_Filter
 
+
 class DummyClient(WebSocketClient):
     def opened(self):
         print("opened")
