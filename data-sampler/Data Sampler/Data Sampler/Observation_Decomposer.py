@@ -1,3 +1,5 @@
+import re
+
 observation_id = ""
 sensor_id = ""
 platform_id = ""
@@ -21,6 +23,7 @@ def Decompose(parsed_json):
 
     sensor_id = sensor_id_extractor(parsed_json)
     platform_id = platform_id_creator(parsed_json)
+    observation_id = observation_id_creator(parsed_json)
     print(parsed_json)
 
 
@@ -80,3 +83,10 @@ def platform_id_creator(parsed_json):
     platform_id = parsed_json["data"]["brokerage"]["broker"]["id"].replace("-", "") + parsed_json["data"]["brokerage"]["id"].replace("\'", "")
     #print(platform_id)
     return platform_id
+
+
+#observation_id
+def observation_id_creator(parsed_json):
+    observation_id = parsed_json["data"]["timeseries"]["value"]["time"].replace("-", "").replace(":", "").replace(".", "").replace(" ", "") + parsed_json["data"]["feed"]["metric"]
+    #print(observation_id)
+    return observation_id
