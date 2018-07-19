@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Data.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataLoader.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Data_Sampler.py" />
     <Compile Include="Data_Filter.py">
       <SubType>Code</SubType>

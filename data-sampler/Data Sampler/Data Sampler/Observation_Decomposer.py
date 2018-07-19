@@ -1,4 +1,6 @@
 import re
+import DataLoader
+import Data
 
 observation_id = ""
 sensor_id = ""
@@ -9,7 +11,7 @@ timestamp = ""
 building_floor = ""
 
 results_numeric_value = ""
-results_unit = ""
+results_unit = "" 
 results_data_type = ""
 
 def Decompose(parsed_json):
@@ -24,6 +26,18 @@ def Decompose(parsed_json):
     sensor_id = sensor_id_extractor(parsed_json)
     platform_id = platform_id_creator(parsed_json)
     observation_id = observation_id_creator(parsed_json)
+
+    dr = Data.DataRecord(observation_id, 
+            sensor_id, 
+            platform_id,
+            ObservableProperty,
+            timestamp,
+            building_floor,
+            results_numeric_value,
+            results_unit,
+            results_data_type)
+
+    DataLoader.load(dr)
     print(parsed_json)
 
 

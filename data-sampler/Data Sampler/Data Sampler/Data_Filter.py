@@ -13,7 +13,8 @@ def floor_filter(parsed_json):
                 print(floor_number)
                 with open('data.json', 'a') as outfile:
                     json.dump(parsed_json, outfile)
-        except: 
+        except Exception as e:  
+            print(e)
             pass
             #print("No Floor")
 
