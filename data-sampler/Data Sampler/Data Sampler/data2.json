@@ -1,0 +1,9753 @@
+{
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "WindSpeed",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "WindSpeed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "meters per second",
+			"value": {
+				"time": "2018-07-16T15:43:06.261Z",
+				"timeAccuracy": 7.715,
+				"data": 0.4000000059604645,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "OutsideAirTemp",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "OutsideAirTemp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:06.263Z",
+				"timeAccuracy": 7.716,
+				"data": 20.399999618530273,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "WindDirection",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "WindDirection",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees angular",
+			"value": {
+				"time": "2018-07-16T15:43:06.264Z",
+				"timeAccuracy": 7.718,
+				"data": 0,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'HeatPData'CHWFlowT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:08.751Z",
+				"timeAccuracy": 6.636,
+				"data": 6.900000095367432,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Inputs'CHWPmpSp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-16T15:43:08.753Z",
+				"timeAccuracy": 6.637,
+				"data": 2973,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Inputs'LTHWPmpSp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-16T15:43:08.754Z",
+				"timeAccuracy": 6.638,
+				"data": 3077,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'SAHum",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Humidity",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent relative humidity",
+			"value": {
+				"time": "2018-07-16T15:43:08.937Z",
+				"timeAccuracy": 6.631,
+				"data": 68.72999572753906,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "618_SR_6.020_rH",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 SR",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Relative Humidity",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "pascals",
+			"value": {
+				"time": "2018-07-16T15:43:09.566Z",
+				"timeAccuracy": 5.338,
+				"data": 49,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'Inputs'CHWPmpSp",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-16T15:43:10.143Z",
+				"timeAccuracy": 5.334,
+				"data": 3088,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Rooms06P2'Rm6020'RoomRH",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.020",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.020"
+			}
+		},
+		"feed": {
+			"metric": "Relative Humidity",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent relative humidity",
+			"value": {
+				"time": "2018-07-16T15:43:10.234Z",
+				"timeAccuracy": 5.334,
+				"data": 49,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'EAFltP",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Extract Air Filter Pressure",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "pascals",
+			"value": {
+				"time": "2018-07-16T15:43:10.237Z",
+				"timeAccuracy": 5.335,
+				"data": 126.30000305175781,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'SAHum",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Humidity",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent relative humidity",
+			"value": {
+				"time": "2018-07-16T15:43:10.239Z",
+				"timeAccuracy": 5.336,
+				"data": 84.33000183105469,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "640_Amber_6.037_RoomT",
+			"meta": {
+				"roomDescription": "Amber"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 Amber",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Room Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:11.331Z",
+				"timeAccuracy": 5.465,
+				"data": 22.360000610351562,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "ExternalCO2",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "ExternalCO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:43:11.496Z",
+				"timeAccuracy": 5.231,
+				"data": 7431,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "GlobalRadiation_DirectAbove",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "DirectAbove",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:43:11.499Z",
+				"timeAccuracy": 5.233,
+				"data": 88.23529052734375,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'HeatPData'CHWRtnT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Return Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:15.170Z",
+				"timeAccuracy": 6.417,
+				"data": 8.90000057220459,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'ClgCoilT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Cooling Coil Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:15.364Z",
+				"timeAccuracy": 6.428,
+				"data": 12.679999351501465,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'SAFltSP",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Filter Alarm Limit",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "pascals",
+			"value": {
+				"time": "2018-07-16T15:43:15.367Z",
+				"timeAccuracy": 6.431,
+				"data": 252,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "607_Meeting_6.011_CO2",
+			"meta": {
+				"roomDescription": "Meeting"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 Meeting",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:43:15.996Z",
+				"timeAccuracy": 6.43,
+				"data": 452.79998779296875,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "LightingControl.01_RoomControl1.607_MeetingRoom_6_011_BrightnessValue",
+			"meta": {
+				"buildingCore": "1",
+				"roomDescription": "Meeting Room"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.011",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.011"
+			}
+		},
+		"feed": {
+			"metric": "Room Brightness",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "luxes",
+			"value": {
+				"time": "2018-07-16T15:43:16.039Z",
+				"timeAccuracy": 6.432,
+				"data": 878.0800170898438,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "LightingControl.01_RoomControl1.628_AcousticCell_6_027_BrightnessValue",
+			"meta": {
+				"buildingCore": "1",
+				"roomDescription": "Acoustic Cell"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.027",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.027"
+			}
+		},
+		"feed": {
+			"metric": "Room Brightness",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "luxes",
+			"value": {
+				"time": "2018-07-16T15:43:16.043Z",
+				"timeAccuracy": 6.434,
+				"data": 5.119999885559082,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Rooms06P2'Rm6011'RoomCO2",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.011",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.011"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:43:16.568Z",
+				"timeAccuracy": 6.422,
+				"data": 452.79998779296875,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'OAT",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Outside Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:16.657Z",
+				"timeAccuracy": 6.418,
+				"data": 20.559999465942383,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Meters'Power'L12Namps",
+			"meta": {
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "L1 to N (Amps)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "amperes",
+			"value": {
+				"time": "2018-07-16T15:43:16.839Z",
+				"timeAccuracy": 6.417,
+				"data": 4.306074619293213,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "644_Colab_6.032_RoomT",
+			"meta": {
+				"roomDescription": "Colab"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 Colab",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Room Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:17.852Z",
+				"timeAccuracy": 6.43,
+				"data": 23,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'HeatPData'LTHWFlowT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:21.659Z",
+				"timeAccuracy": 6.488,
+				"data": 42.900001525878906,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Rooms06P3'Rm6034'RoomCO2",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.034",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.034"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:43:21.748Z",
+				"timeAccuracy": 6.474,
+				"data": 540.7999877929688,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Rooms06P3'CO2'MaxCO2",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Maximum CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:43:22.094Z",
+				"timeAccuracy": 6.457,
+				"data": 547.8400268554688,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUMaxCO",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "AHU Max CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:43:22.096Z",
+				"timeAccuracy": 6.459,
+				"data": 547.8400268554688,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'Ctl'MaxCO2",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Maximum CO2 Value",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:43:22.192Z",
+				"timeAccuracy": 6.467,
+				"data": 547.8400268554688,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'HeatPData'CHWFlowT",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:23.021Z",
+				"timeAccuracy": 6.542,
+				"data": 9.100000381469727,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'HgtCoilV",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Heating Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-16T15:43:23.194Z",
+				"timeAccuracy": 6.538,
+				"data": 98.65999603271484,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'SATemp",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:23.281Z",
+				"timeAccuracy": 6.538,
+				"data": 15.309999465942383,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "637_Amber_6.034_CO2",
+			"meta": {
+				"roomDescription": "Amber"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 Amber",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:43:24.347Z",
+				"timeAccuracy": 6.448,
+				"data": 540.7999877929688,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'EATemp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Extract Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:28.126Z",
+				"timeAccuracy": 6.292,
+				"data": 23.809999465942383,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'SATemp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:28.130Z",
+				"timeAccuracy": 6.294,
+				"data": 17.93000030517578,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "LightingControl.01_RoomControl1.610_SR_6_013_BrightnessValue",
+			"meta": {
+				"buildingCore": "1",
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.013",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.013"
+			}
+		},
+		"feed": {
+			"metric": "Room Brightness",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "luxes",
+			"value": {
+				"time": "2018-07-16T15:43:28.865Z",
+				"timeAccuracy": 6.28,
+				"data": 266.239990234375,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Ctl'PidCtrl2",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "PID Controller",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "unknown",
+			"value": {
+				"time": "2018-07-16T15:43:33.918Z",
+				"timeAccuracy": 6.348,
+				"data": 45.426292419433594,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Outputs'CBCtlVlv",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Chilled Beam Control Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-16T15:43:34.099Z",
+				"timeAccuracy": 6.358,
+				"data": 56.341033935546875,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'HgtCoilV",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Heating Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-16T15:43:34.474Z",
+				"timeAccuracy": 6.345,
+				"data": 29.489999771118164,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'HeatPData'CHWRtnT",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Return Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:35.381Z",
+				"timeAccuracy": 6.093,
+				"data": 9.300000190734863,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "603_SR_6.008_RoomT",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 SR",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Room Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:37.483Z",
+				"timeAccuracy": 8.785,
+				"data": 23.760000228881836,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "643_Z2_Amber_6.031_RoomT",
+			"meta": {
+				"roomDescription": "Amber"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.031 Zone 2",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.031",
+				"roomZone": "2"
+			}
+		},
+		"feed": {
+			"metric": "Room Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:38.183Z",
+				"timeAccuracy": 7.66,
+				"data": 23.15999984741211,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "OutsideAirTemp",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "OutsideAirTemp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:38.511Z",
+				"timeAccuracy": 7.905,
+				"data": 20.600000381469727,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Inputs'LTHWPmpSp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-16T15:43:40.868Z",
+				"timeAccuracy": 6.587,
+				"data": 3062,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'SAHum",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Humidity",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent relative humidity",
+			"value": {
+				"time": "2018-07-16T15:43:41.058Z",
+				"timeAccuracy": 6.581,
+				"data": 68.6199951171875,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Rooms06P2'Rm6023'RoomCO2",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.023",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.023"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:43:42.171Z",
+				"timeAccuracy": 6.573,
+				"data": 416.9599914550781,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Rooms06P2'CO2'MinCO2",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Minimum CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:43:42.436Z",
+				"timeAccuracy": 6.541,
+				"data": 416.9599914550781,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUMinCO",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "AHU Min CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:43:42.440Z",
+				"timeAccuracy": 6.545,
+				"data": 416.9599914550781,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "615_SR_6.018_CO2",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 SR",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:43:46.615Z",
+				"timeAccuracy": 8.986,
+				"data": 441.9200134277344,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "621_SR_6.023_CO2",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 SR",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:43:46.617Z",
+				"timeAccuracy": 8.987,
+				"data": 416.9599914550781,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "LightingControl.01_RoomControl1.637_Amber_6_034_BrightnessValue",
+			"meta": {
+				"buildingCore": "1",
+				"roomDescription": "Amber"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.034",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.034"
+			}
+		},
+		"feed": {
+			"metric": "Room Brightness",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "luxes",
+			"value": {
+				"time": "2018-07-16T15:43:46.659Z",
+				"timeAccuracy": 8.983,
+				"data": 99.83999633789062,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Inputs'CHWPmpSp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-16T15:43:47.258Z",
+				"timeAccuracy": 6.39,
+				"data": 2990,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'OAT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Outside Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:47.446Z",
+				"timeAccuracy": 6.389,
+				"data": 21.059999465942383,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'HeatPData'LTHWFlowT",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:48.455Z",
+				"timeAccuracy": 6.375,
+				"data": 42.29999923706055,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'HeatPData'LTHWRtnT",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Return Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:48.457Z",
+				"timeAccuracy": 6.375,
+				"data": 42.5,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'OAT",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Outside Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:48.548Z",
+				"timeAccuracy": 6.373,
+				"data": 20.68000030517578,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Meters'Power'L12Namps",
+			"meta": {
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "L1 to N (Amps)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "amperes",
+			"value": {
+				"time": "2018-07-16T15:43:48.742Z",
+				"timeAccuracy": 6.396,
+				"data": 4.332283973693848,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'HeatPData'LTHWRtnT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Return Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:53.125Z",
+				"timeAccuracy": 5.867,
+				"data": 39.60000228881836,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'ClgCoilT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Cooling Coil Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:53.305Z",
+				"timeAccuracy": 5.86,
+				"data": 12.559999465942383,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'CHWAHU'Power",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Power (kW)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "kilowatts",
+			"value": {
+				"time": "2018-07-16T15:43:53.313Z",
+				"timeAccuracy": 5.863,
+				"data": 15.000000953674316,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'Inputs'CHWPmpSp",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-16T15:43:54.535Z",
+				"timeAccuracy": 6.076,
+				"data": 3097,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'HgtCoilV",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Heating Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-16T15:43:54.630Z",
+				"timeAccuracy": 6.082,
+				"data": 96.93999481201172,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'SATemp",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:54.731Z",
+				"timeAccuracy": 6.09,
+				"data": 15.679999351501465,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Inputs'CBFlowT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Chilled Beam Sec Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:59.459Z",
+				"timeAccuracy": 6.332,
+				"data": 13.779999732971191,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Rooms06P3'Rm6031Z1'ClgVlvPos",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.031 Zone 1",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.031",
+				"roomZone": "1"
+			}
+		},
+		"feed": {
+			"metric": "Cooling Valve Position",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-16T15:43:59.547Z",
+				"timeAccuracy": 6.332,
+				"data": 10.588234901428223,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'ClgCoilV",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Cooling Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:59.632Z",
+				"timeAccuracy": 6.326,
+				"data": 99.72000122070312,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'SATemp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:59.635Z",
+				"timeAccuracy": 6.325,
+				"data": 18.059999465942383,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'CHWCB'Power",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Power (kW)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "kilowatts",
+			"value": {
+				"time": "2018-07-16T15:43:59.716Z",
+				"timeAccuracy": 6.309,
+				"data": 75,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Ctl'CBFlowT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Chilled Beam Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:43:59.802Z",
+				"timeAccuracy": 6.306,
+				"data": 13.779999732971191,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Ctl'ComsClgD.In",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Input Value",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:43:59.804Z",
+				"timeAccuracy": 6.307,
+				"data": 13.779999732971191,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "612_SR_6.015_CO2",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 SR",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:44:00.276Z",
+				"timeAccuracy": 6.316,
+				"data": 549.760009765625,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Rooms06P2'Rm6015'RoomCO2",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.015",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.015"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:44:01.043Z",
+				"timeAccuracy": 6.501,
+				"data": 549.760009765625,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'ClgCoilV",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Cooling Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:01.126Z",
+				"timeAccuracy": 6.498,
+				"data": 99.88999938964844,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "643_Z1_Amber_6.031_RoomT",
+			"meta": {
+				"roomDescription": "Amber"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.031 Zone 1",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.031",
+				"roomZone": "1"
+			}
+		},
+		"feed": {
+			"metric": "Room Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:02.275Z",
+				"timeAccuracy": 6.489,
+				"data": 23.239999771118164,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "643_Z1_Amber_6.031_CHWValve_R",
+			"meta": {
+				"roomDescription": "Amber"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.031 Zone 1",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.031",
+				"roomZone": "1"
+			}
+		},
+		"feed": {
+			"metric": "Chilled Water Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-16T15:44:02.336Z",
+				"timeAccuracy": 6.505,
+				"data": 10.588234901428223,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "643_Z1_Amber_6.031_CO2",
+			"meta": {
+				"roomDescription": "Amber"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.031 Zone 1",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.031",
+				"roomZone": "1"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:44:02.338Z",
+				"timeAccuracy": 6.507,
+				"data": 434.8800048828125,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "WindSpeed",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "WindSpeed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "meters per second",
+			"value": {
+				"time": "2018-07-16T15:44:02.371Z",
+				"timeAccuracy": 6.511,
+				"data": 0.800000011920929,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "WindDirection",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "WindDirection",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees angular",
+			"value": {
+				"time": "2018-07-16T15:44:02.373Z",
+				"timeAccuracy": 6.514,
+				"data": 271.058837890625,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Ctl'PidCtrl2",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "PID Controller",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "unknown",
+			"value": {
+				"time": "2018-07-16T15:44:05.597Z",
+				"timeAccuracy": 6.497,
+				"data": 44.15258026123047,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Outputs'CBCtlVlv",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Chilled Beam Control Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-16T15:44:05.763Z",
+				"timeAccuracy": 6.489,
+				"data": 55.32206344604492,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'HeatPData'CHWFlowT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:05.941Z",
+				"timeAccuracy": 6.482,
+				"data": 5.300000190734863,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Rooms06P3'Rm6031Z1'RoomCO2",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.031 Zone 1",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.031",
+				"roomZone": "1"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:44:06.027Z",
+				"timeAccuracy": 6.478,
+				"data": 434.8800048828125,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'HgtCoilV",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Heating Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-16T15:44:06.114Z",
+				"timeAccuracy": 6.48,
+				"data": 27.639999389648438,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'HPPCHW'Flow",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Flow Rate (M3/H)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "liters per hour",
+			"value": {
+				"time": "2018-07-16T15:44:06.203Z",
+				"timeAccuracy": 6.486,
+				"data": 14.579999923706055,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'HPPCHW'FlowT",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Flow Temperature (\u00b0C)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:06.205Z",
+				"timeAccuracy": 6.487,
+				"data": 8.430000305175781,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'HPPCHW'Power",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Power (W)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "kilowatts",
+			"value": {
+				"time": "2018-07-16T15:44:06.206Z",
+				"timeAccuracy": 6.488,
+				"data": 9.40000057220459,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'HPPCHW'RetT",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Return Temperature (\u00b0C)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:06.207Z",
+				"timeAccuracy": 6.49,
+				"data": 7.059999942779541,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'HPPHTG'Power",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Power (kW)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "kilowatts",
+			"value": {
+				"time": "2018-07-16T15:44:06.209Z",
+				"timeAccuracy": 6.491,
+				"data": 37.900001525878906,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Rooms06P3'CO2'MinCO2",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Minimum CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:44:06.397Z",
+				"timeAccuracy": 6.502,
+				"data": 430.7200012207031,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUMinCO",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "AHU Min CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:44:06.399Z",
+				"timeAccuracy": 6.505,
+				"data": 430.7200012207031,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "OutsideAirTemp",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "OutsideAirTemp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:08.585Z",
+				"timeAccuracy": 6.213,
+				"data": 20.5,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'HeatPData'CHWRtnT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Return Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:12.461Z",
+				"timeAccuracy": 6.518,
+				"data": 8.5,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'HgtCoilT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Heating Coil Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:12.674Z",
+				"timeAccuracy": 6.559,
+				"data": 23.25,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'SAHum",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Humidity",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent relative humidity",
+			"value": {
+				"time": "2018-07-16T15:44:12.677Z",
+				"timeAccuracy": 6.562,
+				"data": 67.93000030517578,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'HPSCHW'FlowT",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Flow Temperature (\u00b0C)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:12.766Z",
+				"timeAccuracy": 6.555,
+				"data": 4.949999809265137,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'HPSCHW'Power",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Power (kW)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "kilowatts",
+			"value": {
+				"time": "2018-07-16T15:44:12.768Z",
+				"timeAccuracy": 6.557,
+				"data": 25.900001525878906,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'HPSCHW'RetT",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Return Temperature (\u00b0C)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:12.770Z",
+				"timeAccuracy": 6.559,
+				"data": 6.679999828338623,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "613_SR_6.016_CO2",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 SR",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:44:13.356Z",
+				"timeAccuracy": 6.554,
+				"data": 640.9600219726562,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Rooms06P2'Rm6016'RoomCO2",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.016",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.016"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:44:14.027Z",
+				"timeAccuracy": 6.564,
+				"data": 640.9600219726562,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Rooms06P2'CO2'MaxCO2",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Maximum CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:44:14.331Z",
+				"timeAccuracy": 6.603,
+				"data": 640.9600219726562,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUMaxCO",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "AHU Max CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:44:14.335Z",
+				"timeAccuracy": 6.606,
+				"data": 640.9600219726562,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'Ctl'MaxCO2",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Maximum CO2 Value",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:44:14.466Z",
+				"timeAccuracy": 6.65,
+				"data": 640.9600219726562,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "ExternalCO2",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "ExternalCO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:44:15.333Z",
+				"timeAccuracy": 6.746,
+				"data": 7456,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "GlobalRadiation_DirectAbove",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "DirectAbove",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:44:15.335Z",
+				"timeAccuracy": 6.747,
+				"data": 98.03921508789062,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Inputs'CHWPmpSp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-16T15:44:18.867Z",
+				"timeAccuracy": 6.402,
+				"data": 2970,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Inputs'LTHWPmpSp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-16T15:44:18.868Z",
+				"timeAccuracy": 6.404,
+				"data": 3039,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'HPSHTG'FlowT",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Flow Temperature (\u00b0C)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:19.124Z",
+				"timeAccuracy": 6.353,
+				"data": 45.09000015258789,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'HPSHTG'Power",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Power (kW)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:19.126Z",
+				"timeAccuracy": 6.354,
+				"data": 40.30000305175781,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'LTHWAHU'FlowT",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Flow Temperature (\u00b0C)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:19.127Z",
+				"timeAccuracy": 6.355,
+				"data": 45.84000015258789,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'LTHWAHU'Power",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Power (kW)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:19.129Z",
+				"timeAccuracy": 6.356,
+				"data": 51.30000305175781,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "619_SR_6.021_RoomT",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 SR",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Room Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:19.595Z",
+				"timeAccuracy": 6.343,
+				"data": 22.540000915527344,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'OAT",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Outside Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:20.323Z",
+				"timeAccuracy": 6.287,
+				"data": 20.93000030517578,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Meters'Power'L12Namps",
+			"meta": {
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "L1 to N (Amps)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "amperes",
+			"value": {
+				"time": "2018-07-16T15:44:20.493Z",
+				"timeAccuracy": 6.252,
+				"data": 4.380326747894287,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'HeatPData'LTHWFlowT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:25.059Z",
+				"timeAccuracy": 6.194,
+				"data": 44.70000076293945,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'ClgCoilT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Cooling Coil Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:25.243Z",
+				"timeAccuracy": 6.205,
+				"data": 12.429999351501465,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'LTHWCB'Power",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Power (kW)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "kilowatts",
+			"value": {
+				"time": "2018-07-16T15:44:25.330Z",
+				"timeAccuracy": 6.199,
+				"data": 0,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'HeatPData'CHWFlowT",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:26.365Z",
+				"timeAccuracy": 6.214,
+				"data": 8.90000057220459,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'Inputs'CHWPmpSp",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-16T15:44:26.457Z",
+				"timeAccuracy": 6.221,
+				"data": 3085,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'HgtCoilV",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Heating Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-16T15:44:26.552Z",
+				"timeAccuracy": 6.229,
+				"data": 96.27999877929688,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'SAFltSP",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Filter Alarm Limit",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "pascals",
+			"value": {
+				"time": "2018-07-16T15:44:26.554Z",
+				"timeAccuracy": 6.229,
+				"data": 259.8999938964844,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'SATemp",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:26.639Z",
+				"timeAccuracy": 6.238,
+				"data": 15.809999465942383,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Inputs'CBFlowT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Chilled Beam Sec Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:31.524Z",
+				"timeAccuracy": 6.463,
+				"data": 13.639999389648438,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Rooms06P3'Rm6031Z1'ClgVlvPos",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.031 Zone 1",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.031",
+				"roomZone": "1"
+			}
+		},
+		"feed": {
+			"metric": "Cooling Valve Position",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-16T15:44:31.613Z",
+				"timeAccuracy": 6.462,
+				"data": 13.72549057006836,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'ClgCoilV",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Cooling Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:31.701Z",
+				"timeAccuracy": 6.456,
+				"data": 97.43999481201172,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'SATemp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:31.704Z",
+				"timeAccuracy": 6.458,
+				"data": 17.809999465942383,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Ctl'CBFlowT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Chilled Beam Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:44:31.883Z",
+				"timeAccuracy": 6.467,
+				"data": 13.639999389648438,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Ctl'ComsClgD.In",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Input Value",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:31.884Z",
+				"timeAccuracy": 6.469,
+				"data": 13.639999389648438,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "LightingControl.01_RoomControl1.601_SR_6_010_BrightnessValue",
+			"meta": {
+				"buildingCore": "1",
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.010",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.010"
+			}
+		},
+		"feed": {
+			"metric": "Room Brightness",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "luxes",
+			"value": {
+				"time": "2018-07-16T15:44:32.480Z",
+				"timeAccuracy": 6.569,
+				"data": 883.2000122070312,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "LightingControl.01_RoomControl1.612_SR_6_015_BrightnessValue",
+			"meta": {
+				"buildingCore": "1",
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.015",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.015"
+			}
+		},
+		"feed": {
+			"metric": "Room Brightness",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "luxes",
+			"value": {
+				"time": "2018-07-16T15:44:32.484Z",
+				"timeAccuracy": 6.573,
+				"data": 76.80000305175781,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'ClgCoilV",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Cooling Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:33.102Z",
+				"timeAccuracy": 6.551,
+				"data": 100,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'EAFltP",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Extract Air Filter Pressure",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "pascals",
+			"value": {
+				"time": "2018-07-16T15:44:33.105Z",
+				"timeAccuracy": 6.553,
+				"data": 125.30000305175781,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "626_SR_6.025_RoomT",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 SR",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Room Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:34.285Z",
+				"timeAccuracy": 6.624,
+				"data": 23.260000228881836,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "643_Z1_Amber_6.031_CHWValve_R",
+			"meta": {
+				"roomDescription": "Amber"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.031 Zone 1",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.031",
+				"roomZone": "1"
+			}
+		},
+		"feed": {
+			"metric": "Chilled Water Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-16T15:44:34.374Z",
+				"timeAccuracy": 6.625,
+				"data": 13.72549057006836,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "WindSpeed",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "WindSpeed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "meters per second",
+			"value": {
+				"time": "2018-07-16T15:44:34.406Z",
+				"timeAccuracy": 6.628,
+				"data": 0.699999988079071,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "WindDirection",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "WindDirection",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees angular",
+			"value": {
+				"time": "2018-07-16T15:44:34.408Z",
+				"timeAccuracy": 6.63,
+				"data": 310.5882263183594,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Ctl'PidCtrl2",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "PID Controller",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "unknown",
+			"value": {
+				"time": "2018-07-16T15:44:37.660Z",
+				"timeAccuracy": 6.487,
+				"data": 42.5755615234375,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Outputs'CBCtlVlv",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Chilled Beam Control Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-16T15:44:37.834Z",
+				"timeAccuracy": 6.494,
+				"data": 54.06045150756836,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'HgtCoilV",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Heating Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-16T15:44:38.205Z",
+				"timeAccuracy": 6.502,
+				"data": 32.02000045776367,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'OAT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Outside Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:38.206Z",
+				"timeAccuracy": 6.503,
+				"data": 21.18000030517578,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'HeatPData'CHWRtnT",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Return Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:39.344Z",
+				"timeAccuracy": 6.419,
+				"data": 9.100000381469727,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'SAHum",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Humidity",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent relative humidity",
+			"value": {
+				"time": "2018-07-16T15:44:39.521Z",
+				"timeAccuracy": 6.412,
+				"data": 84.22000122070312,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "635_NorthComms_6.049_CO2",
+			"meta": {
+				"roomDescription": "North Comms"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 North Comms",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:44:40.630Z",
+				"timeAccuracy": 6.254,
+				"data": 470.7200012207031,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "OutsideAirTemp",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "OutsideAirTemp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:40.660Z",
+				"timeAccuracy": 6.253,
+				"data": 20.700000762939453,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Rooms06P3'Room6049'RoomCO2",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.049",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.049"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:44:44.514Z",
+				"timeAccuracy": 6.31,
+				"data": 470.7200012207031,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'SAHum",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Humidity",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent relative humidity",
+			"value": {
+				"time": "2018-07-16T15:44:44.518Z",
+				"timeAccuracy": 6.31,
+				"data": 67.12999725341797,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "610_SR_6.013_CO2",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 SR",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:44:45.137Z",
+				"timeAccuracy": 6.286,
+				"data": 531.8400268554688,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'HeatPData'LTHWFlowT",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:45.682Z",
+				"timeAccuracy": 6.253,
+				"data": 41.79999923706055,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Rooms06P2'Rm6013'RoomCO2",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.013",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.013"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:44:45.689Z",
+				"timeAccuracy": 6.255,
+				"data": 531.8400268554688,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'HeatPData'LTHWRtnT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Return Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:50.451Z",
+				"timeAccuracy": 6.122,
+				"data": 41.70000076293945,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Inputs'CHWPmpSp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-16T15:44:50.453Z",
+				"timeAccuracy": 6.124,
+				"data": 2983,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Inputs'LTHWPmpSp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-16T15:44:50.455Z",
+				"timeAccuracy": 6.125,
+				"data": 3051,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'HeatPData'LTHWRtnT",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Return Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:51.831Z",
+				"timeAccuracy": 6.147,
+				"data": 41.400001525878906,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'OAT",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Outside Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:51.924Z",
+				"timeAccuracy": 6.15,
+				"data": 21.059999465942383,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Meters'Power'L12Namps",
+			"meta": {
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "L1 to N (Amps)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "amperes",
+			"value": {
+				"time": "2018-07-16T15:44:52.309Z",
+				"timeAccuracy": 6.36,
+				"data": 4.38828182220459,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'ClgCoilT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Cooling Coil Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:56.983Z",
+				"timeAccuracy": 6.355,
+				"data": 12.179999351501465,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'Inputs'CHWPmpSp",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-16T15:44:58.265Z",
+				"timeAccuracy": 6.432,
+				"data": 3100,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'HgtCoilT",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Heating Coil Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:58.355Z",
+				"timeAccuracy": 6.435,
+				"data": 18.619998931884766,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'HgtCoilV",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Heating Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-16T15:44:58.357Z",
+				"timeAccuracy": 6.437,
+				"data": 100,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'SATemp",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:58.437Z",
+				"timeAccuracy": 6.217,
+				"data": 15.679999351501465,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "642_6Person_6.039_RoomT",
+			"meta": {
+				"roomDescription": "6Person"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 6Person",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Room Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:44:59.350Z",
+				"timeAccuracy": 6.178,
+				"data": 23.239999771118164,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'HeatPData'CHWFlowT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:45:03.113Z",
+				"timeAccuracy": 6.311,
+				"data": 5.599999904632568,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Inputs'CBFlowT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Chilled Beam Sec Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:45:03.116Z",
+				"timeAccuracy": 6.315,
+				"data": 13.920000076293945,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Rooms06P3'Rm6035'RoomCO2",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.035",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.035"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:45:03.202Z",
+				"timeAccuracy": 6.31,
+				"data": 552,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'ClgCoilV",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Cooling Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:45:03.296Z",
+				"timeAccuracy": 6.31,
+				"data": 96,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'SATemp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:45:03.302Z",
+				"timeAccuracy": 6.314,
+				"data": 17.93000030517578,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Ctl'CBFlowT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Chilled Beam Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:45:03.477Z",
+				"timeAccuracy": 6.308,
+				"data": 13.920000076293945,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Ctl'ComsClgD.In",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Input Value",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:45:03.481Z",
+				"timeAccuracy": 6.31,
+				"data": 13.920000076293945,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Rooms06P3'CO2'MaxCO2",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Maximum CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:45:03.570Z",
+				"timeAccuracy": 6.307,
+				"data": 552,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUMaxCO",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "AHU Max CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:45:03.577Z",
+				"timeAccuracy": 6.312,
+				"data": 552,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'Ctl'MaxCO2",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Maximum CO2 Value",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-16T15:45:03.669Z",
+				"timeAccuracy": 6.32,
+				"data": 552,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "617_SR_6.019_RoomT",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 SR",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Room Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:45:03.831Z",
+				"timeAccuracy": 6.313,
+				"data": 23.739999771118164,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Meters'HM'HPPHTG'FlowT",
+			"meta": {
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Flow Temperature (\u00b0C)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-16T15:45:04.769Z",
+				"timeAccuracy": 6.331,
+				"data": 42.54999923706055,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Meters'HM'HPPHTG'Power",
+			"meta": {
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Power (kW)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "kilowatts",
+			"value": {
+				"time": "2018-07-16T15:45:04.771Z",
+				"timeAccuracy": 6.332,
+				"data": 5.700000286102295,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Meters'HM'Power",
+			"meta": {
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Total Heat Pump Power (Heating)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "kilowatts",
+			"value": {
+				"time": "2018-07-16T15:45:05.156Z",
+				"timeAccuracy": 6.341,
+				"data": 9.40000057220459,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "638_Amber_6.035_CO2",
+			"meta": {
+				"roomDescription": "Amber"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 Amber",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-16T15:45:05.786Z",
+				"timeAccuracy": 6.349,
+				"data": 552,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "WindSpeed",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "WindSpeed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "meters per second",
+			"value": {
+				"time": "2018-07-16T15:45:05.819Z",
+				"timeAccuracy": 6.354,
+				"data": 0.6000000238418579,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "WindDirection",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "WindDirection",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees angular",
+			"value": {
+				"time": "2018-07-16T15:45:05.822Z",
+				"timeAccuracy": 6.356,
+				"data": 0,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "638_Amber_6.035_CHWValve_R",
+			"meta": {
+				"roomDescription": "Amber"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 Amber",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Chilled Water Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-18T10:01:12.737Z",
+				"timeAccuracy": 7.008,
+				"data": 10.196078300476074,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'ClgCoilV",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Cooling Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T10:01:14.386Z",
+				"timeAccuracy": 7.025,
+				"data": 21.75,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'EAFltP",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Extract Air Filter Pressure",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "pascals",
+			"value": {
+				"time": "2018-07-18T10:01:14.388Z",
+				"timeAccuracy": 7.026,
+				"data": 125,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'OAT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Outside Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T10:01:14.390Z",
+				"timeAccuracy": 7.028,
+				"data": 20.559999465942383,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'SAHum",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Humidity",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent relative humidity",
+			"value": {
+				"time": "2018-07-18T10:01:14.392Z",
+				"timeAccuracy": 7.029,
+				"data": 55.5099983215332,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'ClgCoilV",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Cooling Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T10:01:15.813Z",
+				"timeAccuracy": 6.936,
+				"data": 30.60999870300293,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'EAFltP",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Extract Air Filter Pressure",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "pascals",
+			"value": {
+				"time": "2018-07-18T10:01:15.816Z",
+				"timeAccuracy": 6.936,
+				"data": 125,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Meters'HP'L32N",
+			"meta": {
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "L3 to N (Voltage)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "volts",
+			"value": {
+				"time": "2018-07-18T10:01:15.902Z",
+				"timeAccuracy": 6.937,
+				"data": 246.54922485351562,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "627_Cyber_6.026_RoomT",
+			"meta": {
+				"roomDescription": "Cyber"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 Cyber",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Room Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T10:01:16.829Z",
+				"timeAccuracy": 4.18,
+				"data": 21.440000534057617,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "608_Z2_SR_6.007_CO2",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.007 Zone 2",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.007",
+				"roomZone": "2"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-18T10:01:19.348Z",
+				"timeAccuracy": 7.709,
+				"data": 448.9599914550781,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "LightingControl.01_RoomControl2.623_SR_6_024_BrightnessValue",
+			"meta": {
+				"buildingCore": "1",
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.024",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.024"
+			}
+		},
+		"feed": {
+			"metric": "Room Brightness",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "luxes",
+			"value": {
+				"time": "2018-07-18T10:01:19.388Z",
+				"timeAccuracy": 7.709,
+				"data": 450.55999755859375,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'Inputs'CHWPmpSp",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-18T10:01:20.268Z",
+				"timeAccuracy": 4.543,
+				"data": 2928,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Rooms06P2'Rm6007Z2'RoomCO2",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.007 Zone 2",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.007",
+				"roomZone": "2"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-18T10:01:20.272Z",
+				"timeAccuracy": 4.545,
+				"data": 448.9599914550781,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'EAFltSP",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Extract Air Filter Alarm Limit",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "pascals",
+			"value": {
+				"time": "2018-07-18T10:01:20.358Z",
+				"timeAccuracy": 4.541,
+				"data": 182.6999969482422,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "WindDirection",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "WindDirection",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees angular",
+			"value": {
+				"time": "2018-07-18T10:01:21.477Z",
+				"timeAccuracy": 4.525,
+				"data": 0,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Ctl'PidCtrl2",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "PID Controller",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "unknown",
+			"value": {
+				"time": "2018-07-18T10:01:22.576Z",
+				"timeAccuracy": 8.724,
+				"data": 45.80657958984375,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'HeatPData'CHWFlowT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T10:01:22.922Z",
+				"timeAccuracy": 8.709,
+				"data": 7.099999904632568,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'SAFltP",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Filter Pressure",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "pascals",
+			"value": {
+				"time": "2018-07-18T10:01:23.115Z",
+				"timeAccuracy": 8.723,
+				"data": 189.10000610351562,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'HeatPData'CHWFlowT",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Flow Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T10:01:24.373Z",
+				"timeAccuracy": 4.19,
+				"data": 8.5,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'HeatPData'CHWRtnT",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Return Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T10:01:24.377Z",
+				"timeAccuracy": 4.194,
+				"data": 8.699999809265137,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "615_SR_6.018_RoomT",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 SR",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Room Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T10:01:27.449Z",
+				"timeAccuracy": 8.255,
+				"data": 22.219999313354492,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'EAFlow",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Extract Air Flow",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "liters per second",
+			"value": {
+				"time": "2018-07-18T10:01:28.601Z",
+				"timeAccuracy": 4.042,
+				"data": 716,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "OutsideAirTemp",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "OutsideAirTemp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T10:01:29.544Z",
+				"timeAccuracy": 8.067,
+				"data": 22.799999237060547,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "GlobalRadiation_South",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "South",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-18T10:01:29.546Z",
+				"timeAccuracy": 8.067,
+				"data": 625,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Outputs'CBCtlVlv",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Chilled Beam Control Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-18T10:01:30.799Z",
+				"timeAccuracy": 8.057,
+				"data": 56.5948600769043,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'HeatPData'LTHWRtnT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Return Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T10:01:30.983Z",
+				"timeAccuracy": 8.06,
+				"data": 38.60000228881836,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Inputs'LTHWPmpSp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-18T10:01:30.986Z",
+				"timeAccuracy": 8.06,
+				"data": 3018,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'EAFanSpd",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Extract Air Fan Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-18T10:01:32.643Z",
+				"timeAccuracy": 4.042,
+				"data": 49.689998626708984,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'SATemp",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T10:01:32.733Z",
+				"timeAccuracy": 4.046,
+				"data": 16.559999465942383,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Meters'Power'L32Namps",
+			"meta": {
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "L3 to N (Amps)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "amperes",
+			"value": {
+				"time": "2018-07-18T10:01:32.828Z",
+				"timeAccuracy": 4.053,
+				"data": 5.8141045570373535,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Meters'Power'Power",
+			"meta": {
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Power (Kw)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "kilowatts",
+			"value": {
+				"time": "2018-07-18T10:01:32.830Z",
+				"timeAccuracy": 4.053,
+				"data": 1.31101655960083,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "622_SR_6.029_CO2",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 SR",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-18T10:01:35.772Z",
+				"timeAccuracy": 8.178,
+				"data": 504,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "626_SR_6.025_CO2",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 SR",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-18T10:01:36.671Z",
+				"timeAccuracy": 7.155,
+				"data": 464.9599914550781,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Inputs'CHWPmpSp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-18T10:01:38.177Z",
+				"timeAccuracy": 7.192,
+				"data": 2956,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Rooms06P3'Rm6025'RoomCO2",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.025",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.025"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-18T10:01:38.266Z",
+				"timeAccuracy": 7.194,
+				"data": 464.9599914550781,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'EATemp",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Extract Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T10:17:22.117Z",
+				"timeAccuracy": 3.928,
+				"data": 22.75,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'EATemp",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Extract Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T10:17:22.117Z",
+				"timeAccuracy": 3.928,
+				"data": 22.75,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'EATemp",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Extract Air Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T10:17:22.117Z",
+				"timeAccuracy": 3.928,
+				"data": 22.75,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'HeatPData'LTHWRtnT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Return Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T14:52:49.629Z",
+				"timeAccuracy": 7.926,
+				"data": 39.70000076293945,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Inputs'LTHWPmpSp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-18T14:52:49.631Z",
+				"timeAccuracy": 7.927,
+				"data": 3030,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'ClgCoilV",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Cooling Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T14:52:49.811Z",
+				"timeAccuracy": 7.92,
+				"data": 23.03999900817871,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'EAFltSP",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Extract Air Filter Alarm Limit",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "pascals",
+			"value": {
+				"time": "2018-07-18T14:52:49.812Z",
+				"timeAccuracy": 7.921,
+				"data": 186,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'SAFanSpd",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Supply Air Fan Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-18T14:52:49.815Z",
+				"timeAccuracy": 7.923,
+				"data": 73.93999481201172,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "608_Z2_SR_6.007_RoomT",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.007 Zone 2",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.007",
+				"roomZone": "2"
+			}
+		},
+		"feed": {
+			"metric": "Room Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T14:52:50.538Z",
+				"timeAccuracy": 7.949,
+				"data": 22.360000610351562,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'HgtCoilV",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Heating Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "percent",
+			"value": {
+				"time": "2018-07-18T14:52:51.222Z",
+				"timeAccuracy": 3.875,
+				"data": 28.15999984741211,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "638_Amber_6.035_RoomT",
+			"meta": {
+				"roomDescription": "Amber"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 Amber",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Room Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T14:52:52.242Z",
+				"timeAccuracy": 7.858,
+				"data": 23.440000534057617,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "OutsideAirTemp",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "OutsideAirTemp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T14:52:52.363Z",
+				"timeAccuracy": 7.863,
+				"data": 19.299999237060547,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "GlobalRadiation_DirectAbove",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "DirectAbove",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-18T14:52:52.367Z",
+				"timeAccuracy": 7.867,
+				"data": 49.01960754394531,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Plant06P2'Inputs'LTHWPmpSp",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "LTHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-18T14:52:54.920Z",
+				"timeAccuracy": 3.802,
+				"data": 3073,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'Ctl'MaxCO2",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Maximum CO2 Value",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-18T14:52:55.355Z",
+				"timeAccuracy": 3.764,
+				"data": 757.760009765625,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Ctl'PidCtrl2",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "PID Controller",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "unknown",
+			"value": {
+				"time": "2018-07-18T14:52:57.240Z",
+				"timeAccuracy": 7.983,
+				"data": 47.63005828857422,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'HeatPData'CHWRtnT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Return Temp",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T14:52:57.585Z",
+				"timeAccuracy": 7.955,
+				"data": 9.40000057220459,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "614_SR_6.017_RoomT",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 SR",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Room Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T14:52:58.313Z",
+				"timeAccuracy": 7.992,
+				"data": 21.959999084472656,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "611_SR_6.014_CO2",
+			"meta": {
+				"roomDescription": "SR"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6 SR",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-18T14:52:58.510Z",
+				"timeAccuracy": 7.974,
+				"data": 757.760009765625,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Rooms06P2'Rm6014'RoomCO2",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.014",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.014"
+			}
+		},
+		"feed": {
+			"metric": "CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "parts per million",
+			"value": {
+				"time": "2018-07-18T14:52:59.184Z",
+				"timeAccuracy": 4.26,
+				"data": 757.760009765625,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUdata'ClgCoilV",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Cooling Coil Valve",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T14:52:59.270Z",
+				"timeAccuracy": 4.262,
+				"data": 99.88999938964844,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Meters'HP'L22N",
+			"meta": {
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "L2 to N (Voltage)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "volts",
+			"value": {
+				"time": "2018-07-18T14:52:59.357Z",
+				"timeAccuracy": 4.259,
+				"data": 246.55496215820312,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Meters'Power'L12Namps",
+			"meta": {
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "L1 to N (Amps)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "amperes",
+			"value": {
+				"time": "2018-07-18T14:52:59.440Z",
+				"timeAccuracy": 4.26,
+				"data": 4.552977561950684,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Rooms06P2'CO2'MaxCO2",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Maximum CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-18T14:52:59.528Z",
+				"timeAccuracy": 4.261,
+				"data": 757.760009765625,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Vent06P2'AHUMaxCO",
+			"meta": {
+				"buildingCore": "2",
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "AHU Max CO2",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "no units",
+			"value": {
+				"time": "2018-07-18T14:52:59.531Z",
+				"timeAccuracy": 4.262,
+				"data": 757.760009765625,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Plant06P3'Inputs'CHWPmpSp",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "CHW Pump Speed",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "revolutions per minute",
+			"value": {
+				"time": "2018-07-18T15:12:21.245Z",
+				"timeAccuracy": 8.351,
+				"data": 2928,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Vent06P3'AHUdata'HgtCoilT",
+			"meta": {
+				"buildingCore": "3",
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Heating Coil Temperature",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T15:12:21.421Z",
+				"timeAccuracy": 8.347,
+				"data": 33.68000030517578,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'HPPHTG'FlowT",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Flow Temperature (\u00b0C)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T15:12:21.503Z",
+				"timeAccuracy": 8.337,
+				"data": 38.9900016784668,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'HPPHTG'Power",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Power (kW)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "kilowatts",
+			"value": {
+				"time": "2018-07-18T15:12:21.505Z",
+				"timeAccuracy": 8.339,
+				"data": 50.000003814697266,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt22'Meters'HM'HPPHTG'RetT",
+			"meta": {
+				"buildingPlantRoom": "22"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 22",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Return Temperature (\u00b0C)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees celsius",
+			"value": {
+				"time": "2018-07-18T15:12:21.507Z",
+				"timeAccuracy": 8.341,
+				"data": 43.0099983215332,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "LightingControl.01_RoomControl1.625_TeaPoint_6_028_BrightnessValue",
+			"meta": {
+				"buildingCore": "1",
+				"roomDescription": "Tea Point"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Room 6.028",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6",
+				"roomNumber": "6.028"
+			}
+		},
+		"feed": {
+			"metric": "Room Brightness",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "luxes",
+			"value": {
+				"time": "2018-07-18T15:12:22.193Z",
+				"timeAccuracy": 8.359,
+				"data": 28.15999984741211,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-PXC50",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "Plt21'Meters'HM'HPSCHW'Power",
+			"meta": {
+				"buildingPlantRoom": "21"
+			}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6: Plant Room 21",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "Power (kW)",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "kilowatts",
+			"value": {
+				"time": "2018-07-18T15:12:22.886Z",
+				"timeAccuracy": 4.321,
+				"data": 9.40000057220459,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+} {
+	"signal": 2,
+	"data": {
+		"brokerage": {
+			"broker": {
+				"id": "BMS-USB-6-BACNET-1",
+				"meta": {
+					"protocol": "BACNET",
+					"building": "Urban Sciences Building",
+					"buildingFloor": "6"
+				}
+			},
+			"id": "WindDirection",
+			"meta": {}
+		},
+		"entity": {
+			"name": "Urban Sciences Building: Floor 6",
+			"meta": {
+				"building": "Urban Sciences Building",
+				"buildingFloor": "6"
+			}
+		},
+		"feed": {
+			"metric": "WindDirection",
+			"meta": {}
+		},
+		"timeseries": {
+			"unit": "degrees angular",
+			"value": {
+				"time": "2018-07-18T15:12:24.025Z",
+				"timeAccuracy": 4.384,
+				"data": 135.5294189453125,
+				"type": "Real"
+			}
+		}
+	},
+	"recipients": 0
+}
