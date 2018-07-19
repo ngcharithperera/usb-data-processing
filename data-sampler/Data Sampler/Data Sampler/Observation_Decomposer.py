@@ -87,6 +87,6 @@ def platform_id_creator(parsed_json):
 
 #observation_id
 def observation_id_creator(parsed_json):
-    observation_id = parsed_json["data"]["timeseries"]["value"]["time"].replace("-", "").replace(":", "").replace(".", "").replace(" ", "") + parsed_json["data"]["feed"]["metric"]
+    observation_id = parsed_json["data"]["timeseries"]["value"]["time"].replace("-", "").replace(":", "").replace(".", "").replace(" ", "") + parsed_json["data"]["feed"]["metric"].replace(" ", "").replace("(", "").replace(")", "").replace("\u00b0", "")
     #print(observation_id)
     return observation_id
