@@ -1,5 +1,7 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 
+sparql = SPARQLWrapper("http://192.168.37.1:7200/repositories/Apartment134")
+
 def load(dr):
     sparql.setQuery("""
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>

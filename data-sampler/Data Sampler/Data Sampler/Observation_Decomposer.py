@@ -37,7 +37,7 @@ def Decompose(parsed_json):
             results_unit,
             results_data_type)
 
-    DataLoader.load(dr)
+    #DataLoader.load(dr)
     print(parsed_json)
 
 
